@@ -4,6 +4,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         CharSequence message = string;
         int duration = Toast.LENGTH_SHORT;
 
-        View layout = getLayoutInflater().inflate(R.layout.custom_toast, null);
+        View layout = getLayoutInflater().inflate(R.layout.custom_toast, (ViewGroup) findViewById(R.id.custom_toast_layout));
         TextView text = layout.findViewById(R.id.textview);
         text.setText(message);
 

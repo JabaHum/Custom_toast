@@ -4,10 +4,10 @@
     <item>
         <shape android:shape="rectangle">
             <solid android:color="#91CEFF" />
-            <stroke android:width="2dp" android:color="#2196F3" />
-            <gradient android:startColor="#FFC107"
-                android:endColor="#2196F3"/>
-            <!--corners allow us to make the rounded corners button-->
+            <stroke android:width="2dp" android:color="#637BFF" />
+            <gradient android:startColor="#FF9878"
+                android:endColor="#637BFF"/>
+
             <corners android:radius="10dp" />
 
         </shape>
