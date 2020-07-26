@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         binding.showToastButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showToast("In Android");
+                showToast("Your Alarm is set");
             }
         });
     }
